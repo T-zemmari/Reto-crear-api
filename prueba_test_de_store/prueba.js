@@ -1,6 +1,6 @@
-const Store = require('../Store');
+const Storage = require('../Storage');
 
- let store = new Store();
+ let store = new Storeage();
 
  
 

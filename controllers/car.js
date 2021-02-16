@@ -1,14 +1,34 @@
-const Store = require('../Store');
+const { appendFileSync } = require('fs');
+const Storage = require('../Storage');
 
 
 class Car{
     storage;
     constructor(){
 
-        this.store = new Store();
+        this.storage= new Storage();
 
 
     }
+
+ async indexAll(){
+      return;
+};
+
+
+ async store(){
+    return;
+ };
+
+ async update(){
+    return;
+ };
+
+ async destroy(){
+    return;
+ };
+
+
 }
 
 
