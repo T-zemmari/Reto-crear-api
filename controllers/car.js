@@ -12,7 +12,8 @@ class Car{
     }
 
  async indexAll(){
-      return;
+
+      this.storage.get();
 };
 
 
@@ -34,3 +35,5 @@ class Car{
 
 let carController = new Car();
 module.exports = carController;
+
+console.log(this.indexAll);
