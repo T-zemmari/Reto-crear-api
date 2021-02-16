@@ -10,5 +10,5 @@ class Car{
 }
 
 
-
-module.exports = Car;
+let carController = new Car();
+module.exports = carController;
