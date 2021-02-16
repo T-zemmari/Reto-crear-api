@@ -2,7 +2,7 @@ const Store = require('../Store');
 
 
 class Car{
-    store;
+    storage;
     constructor(){
 
         this.store = new Store();
