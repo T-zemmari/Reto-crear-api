@@ -2,9 +2,9 @@
 
 class Car{
 
-    brand ="";
-    model="";
-    year="";
+    brand;
+    model;
+    year;
     
     constructor(){
 
@@ -15,3 +15,5 @@ class Car{
 
 
 }
+
+module.exports = Car;
