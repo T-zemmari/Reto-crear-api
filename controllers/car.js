@@ -1,9 +1,11 @@
+const Store = require('../Store');
 
 
 class Car{
-
+    store;
     constructor(){
 
+        this.store = new Store();
 
 
     }
