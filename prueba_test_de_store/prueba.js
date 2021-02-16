@@ -1,4 +1,4 @@
-const Store = require('./Store');
+const Store = require('../Store');
 
  let store = new Store();
 
