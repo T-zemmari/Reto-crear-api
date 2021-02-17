@@ -1,4 +1,4 @@
-const { appendFileSync } = require('fs');
+
 const Storage = require('../Storage');
 
 
@@ -17,7 +17,8 @@ class Car{
 };
 
 
- async store(){
+ async store(car){
+    this.storage.set(car);
     return;
  };
 
@@ -36,4 +37,4 @@ class Car{
 let carController = new Car();
 module.exports = carController;
 
-console.log(this.indexAll);
+console.log(this.store);
