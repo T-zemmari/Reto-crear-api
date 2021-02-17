@@ -1,9 +1,9 @@
 const Storage = require('../Storage');
 
- let store = new Storeage();
+ let storage = new Storage();
 
  
-
+/*
  store.set({name:'tarek',age:40});
  store.set({name:'tarek',age:40});
  store.set({name:'tarek',age:40});
@@ -23,4 +23,7 @@ const Storage = require('../Storage');
 
  resultado3 =store.get();
 
- console.log(resultado3);
+ console.log(resultado3);*/
+ let resultado3 = store.findByID(1);
+ let resultado4 = store.findByID(2);
+ console.log(resultado3,resultado4);
