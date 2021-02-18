@@ -1,28 +1,22 @@
 {
-  "name": "1",
+  "name": "reto-api",
   "version": "1.0.0",
-  "description": "Reto api",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "install": "^0.13.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "no",
-    "start": "node app.js"
+    "start": "node js/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/T-zemmari/Reto-crear-api.git"
+    "url": "git+https://github.com/Alvaro-78/reto-api.git"
   },
-  "keywords": [
-    "api"
-  ],
-  "author": "tarek",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/T-zemmari/Reto-crear-api/issues"
+    "url": "https://github.com/Alvaro-78/reto-api/issues"
   },
-  "homepage": "https://github.com/T-zemmari/Reto-crear-api#readme"
+  "homepage": "https://github.com/Alvaro-78/reto-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
