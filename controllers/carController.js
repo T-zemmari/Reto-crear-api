@@ -38,4 +38,4 @@ class Car{
 let carController = new Car();
 module.exports = carController;
 
-console.log(this.store);
+console.log('Hola mundo cruel');
